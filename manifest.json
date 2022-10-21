@@ -1,0 +1,17 @@
+{
+    "name": "Quran",
+    "version": "1.0.0",
+    "description": "Quran music player",
+    "manifest_version": 3,
+    "author": "Mohamed Reda Elbadawi",
+    "action": {
+        "default_title": "Quran"
+    },
+    "firefox_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "16": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
