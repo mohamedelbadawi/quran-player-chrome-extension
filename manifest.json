@@ -1,7 +1,7 @@
 {
-    "name": "Quran",
+    "name": "Wzaker",
     "version": "1.0.0",
-    "description": "Quran music player",
+    "description": "Quran player",
     "manifest_version": 3,
     "author": "Mohamed Reda Elbadawi",
     "action": {
