@@ -492,7 +492,7 @@ function loadTrack(track_index) {
     curr_track.load();
 
     track_art.style.backgroundImage = "url('./images/profile.jpg')";
-    track_name.textContent = swar[track_index].name;
+    // track_name.textContent = swar[track_index].name;
     track_artist.textContent = 'الشيخ عبدالباسط عبد الصمد';
     now_playing.textContent = "Playing swrah " + (track_index + 1) + " of " + swar.length;
 
@@ -588,6 +588,48 @@ function setUpdate() {
         total_duration.textContent = durationMinutes + ":" + durationMinutes;
     }
 }
+
+
+function addSwarList() {
+    select = document.getElementById('swarList');
+
+    swar.forEach((value, index) => {
+        var opt = document.createElement('option');
+        opt.value = index;
+        opt.innerHTML = value.name;
+        select.appendChild(opt);
+    })
+
+}
+
+
+$("#swarList").mouseup(function () {
+    var open = $(this).data("isopen");
+    if (open) {
+        var e = document.getElementById("swarList");
+        loadTrack(e.value)
+        console.log(e.value)
+    }
+    $(this).data("isopen", !open);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+$(window).on('load', function () {
+    addSwarList();
+});
+
+
+
 
 $('.random-track').click(function () {
     randomTrack();

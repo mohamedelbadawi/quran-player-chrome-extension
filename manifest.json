@@ -7,7 +7,7 @@
     "action": {
         "default_title": "Quran"
     },
-    "firefox_url_overrides": {
+    "chrome_url_overrides": {
         "newtab": "index.html"
     },
     "icons": {
