@@ -5,7 +5,8 @@
     "manifest_version": 3,
     "author": "Mohamed Reda Elbadawi",
     "action": {
-        "default_title": "Quran"
+        "default_title": "Quran",
+        "default_popup": "index.html"
     },
     "chrome_url_overrides": {
         "newtab": "index.html"
@@ -13,5 +14,11 @@
     "icons": {
         "16": "images/icon.png",
         "128": "images/icon.png"
-    }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage"
+    ]
 }

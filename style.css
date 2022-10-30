@@ -28,7 +28,7 @@ body {
     justify-content: center;
 }
 
-.track-art {
+.swrah-art {
     margin: 25px;
     height: 250px;
     width: 250px;
@@ -48,11 +48,11 @@ body {
     font-size: 1rem;
 }
 
-.track-name {
+.swrah-name {
     font-size: 2.5rem;
 }
 
-.track-artist {
+.swrah-artist {
     margin-top: 5px;
     font-size: 1.5rem;
 }
@@ -68,21 +68,21 @@ body {
     color: black;
 }
 
-.repeat-track,
-.random-track,
-.playpause-track,
-.prev-track,
-.next-track {
+.repeat-swrah,
+.random-swrah,
+.playpause-swrah,
+.prev-swrah,
+.next-swrah {
     padding: 25px;
     opacity: 0.8;
     transition: opacity .2s;
 }
 
-.repeat-track:hover,
-.random-track:hover,
-.playpause-track:hover,
-.prev-track:hover,
-.next-track:hover {
+.repeat-swrah:hover,
+.random-swrah:hover,
+.playpause-swrah:hover,
+.prev-swrah:hover,
+.next-swrah:hover {
     opacity: 1.0;
 }
 
